@@ -5,4 +5,5 @@
   <color name="my_red">#dc2e2e</color>
   <color name="my_dark_red">#ab2222</color>
   <color name="my_gray">#738182</color>
+  <color name="splash_background">#738182</color>
 </resources>

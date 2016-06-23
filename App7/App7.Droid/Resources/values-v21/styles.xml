@@ -6,5 +6,7 @@
     <item name="android:statusBarColor">@color/my_dark_red</item>
     <item name="android:textColorPrimary">@color/my_white</item>
     <item name="android:colorPrimary">@color/my_red</item>
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
   </style>
 </resources>
