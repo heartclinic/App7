@@ -19,9 +19,9 @@ namespace App7
             Detail = new NavigationPage(new ContactsPageCS()) { };
            
             masterPage.ListView.ItemSelected += OnItemSelected;
-
+            int t = 0;
             if (Device.OS == TargetPlatform.Windows)
-            {
+            { 
                 Master.Icon = "swap.png";
             }
         }
