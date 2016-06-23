@@ -1,0 +1,14 @@
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.pdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.pdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.csprojResolveAssemblyReference.cache
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Mono.Android.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Mono.Android.xml
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
