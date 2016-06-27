@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace App7.Droid
 {
-    [Activity(Label = "App7", Icon = "@drawable/icon", MainLauncher = true, Theme = "@style/MyCustomTheme",  ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "App7", Icon = "@drawable/icon", MainLauncher = false, Theme = "@style/MyCustomTheme",  ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
         protected override void OnCreate(Bundle bundle)
@@ -18,7 +18,7 @@ namespace App7.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App()  );
-            Window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
+         Window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
         }
     }
 }

@@ -2,6 +2,10 @@ App7.Droid.MainActivity, App7.Droid;md533cea878de1e2c50548e44cd1a7b927b.MainActi
 App7.Droid.MainActivity, App7.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533cea878de1e2c50548e44cd1a7b927b.MainActivity
 App7.Droid.MainActivity;md533cea878de1e2c50548e44cd1a7b927b.MainActivity
 app7.droid.MainActivity;md533cea878de1e2c50548e44cd1a7b927b.MainActivity
+App7.Droid.Splash, App7.Droid;md533cea878de1e2c50548e44cd1a7b927b.Splash
+App7.Droid.Splash, App7.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533cea878de1e2c50548e44cd1a7b927b.Splash
+App7.Droid.Splash;md533cea878de1e2c50548e44cd1a7b927b.Splash
+app7.droid.Splash;md533cea878de1e2c50548e44cd1a7b927b.Splash
 App7.Droid.DependencySvcStepCounter.StepCounter_Android, App7.Droid;md535458c5651d223b525695571ff54741c.StepCounter_Android
 App7.Droid.DependencySvcStepCounter.StepCounter_Android, App7.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md535458c5651d223b525695571ff54741c.StepCounter_Android
 App7.Droid.DependencySvcStepCounter.StepCounter_Android;md535458c5651d223b525695571ff54741c.StepCounter_Android

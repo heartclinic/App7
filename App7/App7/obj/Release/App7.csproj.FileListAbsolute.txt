@@ -12,3 +12,7 @@ C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Releas
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Mono.Android.xml
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb

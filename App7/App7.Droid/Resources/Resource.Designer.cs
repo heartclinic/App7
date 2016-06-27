@@ -4787,6 +4787,9 @@ namespace App7.Droid
 			// aapt resource value: 0x7f070001
 			public const int Theme_MediaRouter_Light = 2131165185;
 			
+			// aapt resource value: 0x7f070145
+			public const int Theme_Splash = 2131165509;
+			
 			// aapt resource value: 0x7f0700ee
 			public const int ThemeOverlay_AppCompat = 2131165422;
 			
