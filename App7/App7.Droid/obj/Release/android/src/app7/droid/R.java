@@ -2762,6 +2762,7 @@ containing a value of this type.
         public static final int Theme_AppCompat_NoActionBar=0x7f0700ed;
         public static final int Theme_MediaRouter=0x7f070000;
         public static final int Theme_MediaRouter_Light=0x7f070001;
+        public static final int Theme_Splash=0x7f070145;
         public static final int ThemeOverlay_AppCompat=0x7f0700ee;
         public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0700ef;
         public static final int ThemeOverlay_AppCompat_Dark=0x7f0700f0;

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
-   <uses-feature android:name="android.hardware.sensor.stepcounter" />
-  <uses-feature android:name="android.hardware.sensor.stepdetector" />
-  <uses-permission android:name="android.permission.READ_PHONE_STATE"/> 
-  <uses-permission android:name="android.permission.access_coarse_location"/> 
-	<application android:label="$safeprojectname$"></application>
+	<uses-feature android:name="android.hardware.sensor.stepcounter" />
+	<uses-feature android:name="android.hardware.sensor.stepdetector" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.access_coarse_location" />
+	<application android:label="Клиника Сердца" android:icon="@drawable/icon"></application>
 </manifest>

@@ -10,8 +10,15 @@ C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Releas
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.csprojResolveAssemblyReference.cache
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Mono.Android.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Mono.Android.xml
-C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
-C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\SQLite-net.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\SQLitePCL.batteries.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\SQLitePCL.raw.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\SQLite-net.xml
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Platform.pdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb

@@ -16,6 +16,9 @@ C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.Core.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.Xml.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\SQLite-net.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\SQLitePCL.raw.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\SQLitePCL.batteries.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.Net.Http.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.Runtime.Serialization.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.ServiceModel.Internals.dll

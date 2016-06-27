@@ -59,5 +59,9 @@ C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\bin\Release\Xamarin.iOS.dll.mdb
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\res\drawable\splash_screen.xml
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\res\drawable\splash.png
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\bin\Release\SQLite-net.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\bin\Release\SQLitePCL.raw.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\bin\Release\SQLitePCL.batteries.dll
+C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\bin\Release\SQLite-net.xml
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\obj\Release\App7.Droid.dll.mdb
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7.Droid\bin\Release\App7.Droid.dll.mdb
