@@ -22,7 +22,7 @@ namespace App7
                 Button button1 = new Button //кнопка отправить
             {
 
-                Text = "Регистрация",
+                Text = "Выйти",
 
             };
             Label l1 = new Label //текст Login
@@ -39,36 +39,19 @@ namespace App7
 
                 VerticalOptions = LayoutOptions.Center,
                 Children = {
-                    l1
+                    l1,button1
                     }
             };
+            button1.Clicked += Button1_Clicked;
           
         }
 
-        private void Button1_Clicked(object sender, EventArgs e)
+        private async void Button1_Clicked(object sender, EventArgs e)
         {
-            sendrequest();
+            Helpers.Settings.UserLog = "";
+          //  await Navigation.PushAsync(new WelcomePageCS());
+            Application.Current.MainPage = new NavigationPage(new WelcomePageCS());
         }
-        async void sendrequest()
-        {
-            FireBaseConnect fbc = new FireBaseConnect();
-            Dictionary<string, string> values = new Dictionary<string, string>(); //создаем словарь типа ключ значение, для передачи переменных
-          string response = await fbc.Get("users/" + ent1.Text); //делаем запрос на наличие в базе данных пользователя
-            if (response != "null") //если тело ответа на запрос не пустое, значит пользователь такой пользователь есть
-            {
-                await DisplayAlert("Ошибка", "Пользователь с таким логином уже существует", "OK"); //выводим окошко с ошибкой
-            }
-            else
-            {
-                values.Add("password", ent2.Text); //добавляем введенные значения в словарь
-                values.Add("name", ent3.Text);
-                values.Add("surname", ent4.Text);
-                fbc.Update("users/" + ent1.Text, values);
-                //response = await client.UpdateAsync("users/" + ent1.Text, values);//добавляем данные в БД
-
-                //Dictionary<string, string> result = response.ResultAs<Dictionary<string, string>>();
-            }
-
-        }
+        
     }
 }
