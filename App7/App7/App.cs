@@ -12,7 +12,18 @@ namespace App7
         public App()
         {
             // The root page of your application
-            MainPage = new App7.MainPageCS();
+            // MainPage = new App7.MainPageCS();
+           // if (Application.Current.Properties.ContainsKey("id"))
+           if (Helpers.Settings.UserLog!="")
+            {
+              //  var id = Application.Current.Properties["id"].ToString();
+                // do something with id
+                MainPage = new MainPageCS();
+            }
+            else
+            {
+                MainPage = new NavigationPage(new WelcomePageCS());
+            }
         }
 
         protected override void OnStart()
@@ -31,3 +42,4 @@ namespace App7
         }
     }
 }
+
