@@ -21,8 +21,9 @@ namespace App7
                 MainPage = new MainPageCS();
             }
             else
-            {
-                MainPage = new NavigationPage(new WelcomePageCS());
+            { MainPage = new RegistrationWithoutPasswordCS();
+                //MainPage = new NavigationPage(new WelcomePageCS());
+
             }
         }
 

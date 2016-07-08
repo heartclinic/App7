@@ -19,7 +19,7 @@ namespace App7
             var masterPageItems = new List<MasterPageItem>();
             masterPageItems.Add(new MasterPageItem
             {
-                Title = "Contacts",
+                Title = "Профиль",
                 IconSource = "contacts.png",
                 TargetType = typeof(ContactsPageCS)
             });
@@ -31,7 +31,7 @@ namespace App7
             });
             masterPageItems.Add(new MasterPageItem
             {
-                Title = "Reminders",
+                Title = "Шагомер",
                 IconSource = "reminders.png",
                 TargetType = typeof(ReminderPageCS)
             });

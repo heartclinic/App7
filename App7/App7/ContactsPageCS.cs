@@ -17,7 +17,7 @@ namespace App7
             string s = "Логин";
             if (Helpers.Settings.UserLog!="")
             {
-                s = Helpers.Settings.UserLog;
+                s = "Привет! \n" + Helpers.Settings.UserLog;
             };
                 Button button1 = new Button //кнопка отправить
             {

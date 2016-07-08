@@ -39,6 +39,12 @@ namespace App7.Firebase
             User user = response.ResultAs<User>();
             return user;
         }
+        public async Task<User2> Update2(string path, Dictionary<string, string> values)
+        {
+            FirebaseResponse response = await client.UpdateAsync(path, values);
+            User2 user = response.ResultAs<User2>();
+            return user;
+        }
         public async void Update(string path, string key, string value)
         {
             Dictionary<string, string> values = new Dictionary<string, string>();

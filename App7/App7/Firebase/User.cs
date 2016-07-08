@@ -11,5 +11,6 @@ namespace App7.Firebase
             public string name { get; set; }
             public string password { get; set; }
             public string surname { get; set; }
+
     }
 }

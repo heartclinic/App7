@@ -36,5 +36,5 @@ C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Debug\
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Debug\App7.csprojResolveAssemblyReference.cache
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Debug\App7.dll
 C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Debug\App7.pdb
-C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\obj\Debug\App7.dll.mdb
-C:\Users\zhakhov\Documents\Visual Studio 2015\Projects\App7\App7\App7\bin\Debug\App7.dll.mdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Debug\App7.dll.mdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Debug\App7.dll.mdb

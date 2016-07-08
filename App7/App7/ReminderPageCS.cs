@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace App7
 {
@@ -7,9 +8,12 @@ namespace App7
         public Label stepLabel;
 		public ReminderPageCS ()
 		{
+
             Label l1 = new Label
             {
                 Text = "Reminder data goes here",
+                FontSize = 30,
+                TextColor = Color.Red,
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
@@ -21,7 +25,10 @@ namespace App7
 				}    
 			};
             stepLabel = l1;
-
+            if (Helpers.Settings.CurrentDay != DateTime.Today.Day.ToString()) {
+                Helpers.Settings.CurrentDay = DateTime.Today.Day.ToString();
+                Helpers.Settings.BegginingStep = 0;
+            } 
 		}
         protected override void OnAppearing()
         {

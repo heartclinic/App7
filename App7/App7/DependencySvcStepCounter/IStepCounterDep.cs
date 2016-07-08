@@ -10,5 +10,6 @@ namespace App7.DependencySvcStepCounter
     public interface IStepCounterDep
     {
        void GetSteps(Action<float> stepCountChanged );
+       
     }
 }

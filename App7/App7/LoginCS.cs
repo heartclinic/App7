@@ -12,6 +12,7 @@ namespace App7
     public class LoginCS : ContentPage
     {
         public Entry ent1, ent2, ent3, ent4;
+        ActivityIndicator loadingStatus;
         public LoginCS()
         {
             Button button1 = new Button //кнопка отправить 
@@ -19,6 +20,11 @@ namespace App7
 
                 Text = "Войти",
 
+            };
+            ActivityIndicator loadIndicator = new ActivityIndicator
+            {
+                IsRunning = false,
+                Color = Color.Red
             };
             Label l1 = new Label //текст Login
             {
@@ -55,17 +61,18 @@ namespace App7
 
                 VerticalOptions = LayoutOptions.Center,
                 Children = {
-                    l1,entr1,l2,entr2,button1//добавляем элементы в том порядке в котором они должны идти
+                    l1,entr1,l2,entr2,button1,loadIndicator//добавляем элементы в том порядке в котором они должны идти
                     }
             };
             button1.Clicked += Button1_Clicked; //добавляем метод Button1_Clicked на клик кнопки
             ent1 = entr1; //создаем ссылки на элементы управления
             ent2 = entr2;
-            
+            loadingStatus = loadIndicator;
         }
 
         private void Button1_Clicked(object sender, EventArgs e)
         {
+            loadingStatus.IsRunning = true;
             sendrequest();
         }
         async void sendrequest()
@@ -75,6 +82,7 @@ namespace App7
          User response = await fbc.GetUser("users/" + ent1.Text); //делаем запрос на наличие в базе данных пользователя
             if (response == null) //если тело ответа на запрос не пустое, значит пользователь такой пользователь есть
             {
+                loadingStatus.IsRunning = false;
                 await DisplayAlert("Ошибка", "Пользователь с таким именем не найден", "OK"); //выводим окошко с ошибкой
             }
             else
@@ -82,11 +90,19 @@ namespace App7
                 //response = await fbc.Get("users/" + ent1.Text+"/password");
                 if (response.password != ent2.Text) //если тело ответа на запрос не пустое, значит пользователь такой пользователь есть
                 {
+                    loadingStatus.IsRunning = false;
                     await DisplayAlert("Ошибка", "Пароль не верный", "OK"); //выводим окошко с ошибкой
                 }
-                else {
+                else
+                {
+                    loadingStatus.IsRunning = false;
                     await DisplayAlert("Готово", "Успешный вход", "OK"); //выводим окошко с ошибкой
+                   
+                    // Application.Current.Properties["id"] = ent1.Text;
+                    Helpers.Settings.UserLog = ent1.Text;
 
+                    //  await DisplayAlert("Готово", "Успешный вход", "OK");
+                    await Navigation.PushModalAsync(new MainPageCS());
                 }
                 //response = await client.UpdateAsync("users/" + ent1.Text, values);//добавляем данные в БД
 

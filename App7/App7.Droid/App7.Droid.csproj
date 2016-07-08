@@ -137,6 +137,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencySvcDevice\AndroidDevice.cs" />
     <Compile Include="DependencySvcStepCounter\StepCounter_Android.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="MainActivity.cs" />

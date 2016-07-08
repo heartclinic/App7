@@ -28,10 +28,7 @@ namespace App7.Droid.DependencySvcStepCounter
    public class StepCounter_Android : Java.Lang.Object, IStepCounterDep, ISensorEventListener
     {
         private Action<float> _stepCountChanged;
-
-        
-
-     
+        private float count=0;
         public void GetSteps(Action<float> stepCountChanged)
         {
             SensorManager senMgr = (SensorManager) Android.App.Application.Context.GetSystemService(Context.SensorService);
@@ -41,7 +38,7 @@ namespace App7.Droid.DependencySvcStepCounter
             {
                 senMgr.RegisterListener(this, counter, SensorDelay.Normal);
             }
-
+        
             _stepCountChanged = stepCountChanged;
         }
 
@@ -51,8 +48,11 @@ namespace App7.Droid.DependencySvcStepCounter
         }
 
         public void OnSensorChanged(SensorEvent e)
-        {
-            _stepCountChanged(e.Values.First());
+        {if (Helpers.Settings.BegginingStep==0)
+            {
+                Helpers.Settings.BegginingStep = e.Values.First();
+            }
+            _stepCountChanged(e.Values.First()- Helpers.Settings.BegginingStep);
         }
     }
 }

@@ -36,9 +36,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="DependencySvcDevice\IDevice.cs" />
     <Compile Include="Firebase\User.cs" />
+    <Compile Include="Firebase\User2.cs" />
+    <Compile Include="Fiziology\Convertion.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="LoginCS.cs" />
+    <Compile Include="RegistrationWithoutPassword.cs" />
     <Compile Include="WelcomPageCS.cs" />
     <Compile Include="RegistrationCS.cs" />
     <Compile Include="ContactsPageCS.cs" />
