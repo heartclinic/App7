@@ -30,6 +30,12 @@ namespace App7.Helpers
         private static readonly string CurrentDayDefault = "1";
         private const string BegginingStepKey = "BegginingStep";
         private static readonly float BegginingStepDefault = 0;
+        private const string StepLengthKey = "StepLength";
+        private static readonly double StepLengthDefault = 0.8;
+        private const string SpeedKey = "Speed";
+        private static readonly double SpeedDefault = 4.0;
+        private const string WeightKey = "Weight";
+        private static readonly double WeightDefault = 65;
         #endregion
 
 
@@ -53,6 +59,39 @@ namespace App7.Helpers
             set
             {
                 AppSettings.AddOrUpdateValue(UserLogKey, value);
+            }
+        }
+        public static double Speed
+        {
+            get
+            {
+                return AppSettings.GetValueOrDefault(SpeedKey, SpeedDefault);
+            }
+            set
+            {
+                AppSettings.AddOrUpdateValue(SpeedKey, value);
+            }
+        }
+        public static double Weight
+        {
+            get
+            {
+                return AppSettings.GetValueOrDefault(WeightKey, WeightDefault);
+            }
+            set
+            {
+                AppSettings.AddOrUpdateValue(WeightKey, value);
+            }
+        }
+        public static double StepLength
+        {
+            get
+            {
+                return AppSettings.GetValueOrDefault(StepLengthKey, StepLengthDefault);
+            }
+            set
+            {
+                AppSettings.AddOrUpdateValue(StepLengthKey, value);
             }
         }
         public static string CurrentDay
