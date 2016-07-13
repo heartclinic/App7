@@ -62,7 +62,7 @@ namespace App7
 
         private async void Button2_Clicked(object sender, EventArgs e)
         {
-             await Navigation.PushAsync (new RegistrationCS ());
+             await Navigation.PushAsync (new RegistrationWithoutPasswordCS ());
             
         }
 

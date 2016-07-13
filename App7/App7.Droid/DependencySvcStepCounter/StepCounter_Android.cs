@@ -52,7 +52,14 @@ namespace App7.Droid.DependencySvcStepCounter
             {
                 Helpers.Settings.BegginingStep = e.Values.First();
             }
-            _stepCountChanged(e.Values.First()- Helpers.Settings.BegginingStep);
+            if (Helpers.Settings.CurrentDay != DateTime.Today.Day.ToString())
+            {
+                Helpers.Settings.CurrentDay = DateTime.Today.Day.ToString();
+                Helpers.Settings.BegginingStep = e.Values.First();
+            }
+
+            Helpers.Settings.CurrentStep = e.Values.First() - Helpers.Settings.BegginingStep;
+            _stepCountChanged(Helpers.Settings.CurrentStep);
         }
     }
 }

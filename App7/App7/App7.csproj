@@ -41,6 +41,7 @@
     <Compile Include="Firebase\User2.cs" />
     <Compile Include="Fiziology\Convertion.cs" />
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Instance.cs" />
     <Compile Include="LoginCS.cs" />
     <Compile Include="RegistrationWithoutPassword.cs" />
     <Compile Include="WelcomPageCS.cs" />

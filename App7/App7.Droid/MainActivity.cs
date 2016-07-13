@@ -20,6 +20,13 @@ namespace App7.Droid
             LoadApplication(new App()  );
          Window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
         }
+        public override void OnBackPressed()
+        {
+            if (App7.Instance.DoBack)
+            {
+                base.OnBackPressed();
+            }
+        }
     }
 }
 

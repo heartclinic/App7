@@ -12,7 +12,7 @@ namespace App7
 
             Label l1 = new Label
             {
-                Text = "Reminder data goes here",
+                Text = Helpers.Settings.CurrentStep.ToString(),
                 FontSize = 30,
                 TextColor = Color.Red,
                 HorizontalOptions = LayoutOptions.Center,

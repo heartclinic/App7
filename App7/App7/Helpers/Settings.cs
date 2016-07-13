@@ -30,6 +30,8 @@ namespace App7.Helpers
         private static readonly string CurrentDayDefault = "1";
         private const string BegginingStepKey = "BegginingStep";
         private static readonly float BegginingStepDefault = 0;
+        private const string CurrentStepKey = "CurrentStep";
+        private static readonly float CurrentStepDefault = 0;
         private const string StepLengthKey = "StepLength";
         private static readonly double StepLengthDefault = 0.8;
         private const string SpeedKey = "Speed";
@@ -114,6 +116,17 @@ namespace App7.Helpers
             set
             {
                 AppSettings.AddOrUpdateValue(BegginingStepKey, value);
+            }
+        }
+        public static float CurrentStep
+        {
+            get
+            {
+                return AppSettings.GetValueOrDefault(CurrentStepKey, CurrentStepDefault);
+            }
+            set
+            {
+                AppSettings.AddOrUpdateValue(CurrentStepKey, value);
             }
         }
 

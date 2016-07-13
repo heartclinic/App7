@@ -63,20 +63,22 @@ namespace App7
                 Placeholder = "",
                 TextColor = Color.Red,
                 PlaceholderColor = Color.Gray,
-                IsPassword = true
+               Keyboard = Keyboard.Numeric
             };
             Entry entr3 = new Entry
             {
                 Placeholder = "",
                 TextColor = Color.Red,
-                PlaceholderColor = Color.Gray
-
+                PlaceholderColor = Color.Gray,
+                Keyboard = Keyboard.Numeric
             };
             Entry entr4 = new Entry
             {
                 Placeholder = "",
                 TextColor = Color.Red,
-                PlaceholderColor = Color.Gray
+                PlaceholderColor = Color.Gray,
+                Keyboard = Keyboard.Numeric
+               
 
             };
             ActivityIndicator loadIndicator = new ActivityIndicator {
