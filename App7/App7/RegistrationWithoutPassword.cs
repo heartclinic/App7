@@ -134,8 +134,10 @@ namespace App7
                     loadingStatus.IsRunning = false;
                     // Application.Current.Properties["id"] = ent1.Text;
                     Helpers.Settings.UserLog = ent1.Text;
-                   //  await DisplayAlert("Готово", "Успешный вход", "OK");
-                    await Navigation.PushModalAsync(new MainPageCS());
+                //  await DisplayAlert("Готово", "Успешный вход", "OK");
+                
+                await Navigation.PushModalAsync(new MainPageCS());
+            
                 }
          }
     }

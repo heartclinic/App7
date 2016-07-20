@@ -14,6 +14,12 @@ namespace App7
 
         public MainPageCS()
         {
+            /*var existingPages = Navigation.NavigationStack.ToList();
+            foreach (var page in existingPages)
+            {
+                Navigation.RemovePage(page);
+            }*/
+         //   this.Navigation.PopAsync();
             masterPage = new MasterPageCS();
             Master = masterPage;
             Detail = new NavigationPage(new ContactsPageCS()) { };
