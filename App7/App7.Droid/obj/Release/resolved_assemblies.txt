@@ -4,6 +4,11 @@ C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Microsoft.Threading.Tasks.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Microsoft.Threading.Tasks.Extensions.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Newtonsoft.Json.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.CurrentActivity.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Geolocator.Abstractions.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Geolocator.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Permissions.Abstractions.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Permissions.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Settings.Abstractions.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\Plugin.Settings.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7.Droid\obj\Release\android\assets\System.Net.Http.Extensions.dll

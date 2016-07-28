@@ -36,5 +36,13 @@ C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Releas
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.pdb
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.csprojResolveAssemblyReference.cache
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.dll
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.pdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.xml
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
+C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\obj\Release\App7.dll.mdb
 C:\Users\zhakhov\documents\visual studio 2015\Projects\App7\App7\App7\bin\Release\App7.dll.mdb

@@ -8,7 +8,9 @@
   <uses-permission android:name="android.permission.access_coarse_location" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Клиника Сердца" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <application android:label="Клиника Сердца" android:icon="@drawable/icon" android:name="md533cea878de1e2c50548e44cd1a7b927b.MainApplication" android:allowBackup="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="App7" android:theme="@style/MyCustomTheme" android:name="md533cea878de1e2c50548e44cd1a7b927b.MainActivity" />
     <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md533cea878de1e2c50548e44cd1a7b927b.Splash">
       <intent-filter>
